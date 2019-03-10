@@ -1,0 +1,4 @@
+db.sqlite3
+node_modules
+django2react16/frontend/static/frontend/main.js
+django2react16/frontend/static/frontend/main.js.map
