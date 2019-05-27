@@ -23,7 +23,10 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
+    "js-cookie": "^2.2.0",
+    "promise-polyfill": "^8.1.0",
     "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.1",
+    "whatwg-fetch": "^3.0.0"
   }
 }
