@@ -6,7 +6,8 @@
   "scripts": {
     "build-dev": "webpack --mode development --devtool source-map ./django2react16/frontend/src/index.js --output ./django2react16/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./django2react16/frontend/src/index.js --output ./django2react16/frontend/static/frontend/main.js",
-    "lint": "eslint ./django2react16/frontend/src"
+    "lint": "eslint ./django2react16/frontend/src",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +20,9 @@
     "babel-loader": "^8.0.5",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.8.0",
+    "react-jest": "^0.2.1",
+    "react-test-renderer": "^16.8.6",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
   },
